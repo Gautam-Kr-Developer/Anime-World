@@ -1,0 +1,239 @@
+/* Slider styles */
+.carousel-item {
+    height: 580px;
+  }
+  .carousel-item video{
+    size: 100%;
+  }
+  
+.imgcarousel
+{
+  display: none;
+}
+
+  /* Title */
+ .Title
+ {
+  padding-top: 3%;
+  margin-bottom: 3%;
+  color: rgb(106, 112, 117);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .Title1
+ {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+  
+.Body
+{
+  background-image: url(/src/img/8k.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 150vh;
+  
+}
+
+
+/* DISCRIPTION.JS */
+
+
+
+.main
+{
+ background-color: black; 
+}
+/* .disbody{
+  display: flex;
+} */
+.dispimg{
+  width: 80%;
+  margin-left: 10%;
+  height: 45vh;
+  margin-top: 2%;
+  border-radius: 2rem;
+  margin-bottom: 3%;
+}
+.discription
+{
+  color: aliceblue;
+  font-family: sans-serif;
+  /* margin: 0% 20% 3% 20%; */
+  text-align: justify;
+ font-size: 16px;
+}
+.detail
+{
+  text-align: left;
+}
+
+.episodes
+{
+  background-color: transparent;
+  overflow-y: scroll;
+  height: 95vh;
+  border-color: rgb(54, 54, 60);
+  width: 100%;
+  margin-top: 2%;
+ 
+}
+.h3 {
+  background-color: rgb(126, 149, 149);
+  line-height: 50px;
+  margin-bottom: 3%;
+  padding: 5px 0px;
+  color: rgb(68, 76, 83);
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.episodes::-webkit-scrollbar {
+  width: 10px;   
+}
+
+.episodes::-webkit-scrollbar-track {
+  background: transparent; 
+  
+  
+}
+
+.episodes::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+  border-radius: 20px;
+  border: 2px solid #ffffff; 
+}
+
+.episodes::-webkit-scrollbar-thumb:hover {
+  background-color: #4d6083; /* set the color of the scrollbar thumb on hover */
+}
+.episodes p{
+  
+  padding:1% ;
+  background-color: rgba(38, 34, 34, 0.542);
+  cursor: pointer;
+  color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.Link
+{
+  text-decoration: none;
+  color: black;
+}
+
+.Discription
+{
+ 
+  border-style: solid;
+}
+.disimg{
+  width:100%;
+
+  height: 100%;
+  position: relative;
+}
+.dislink
+{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.atitle label
+{
+  font-size: 39px;
+  color: rgb(255, 255, 255);
+  margin-left: 5%;
+  margin-right: 50%;
+  margin-bottom: 2%;
+}
+.atitle button
+{
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.form
+{
+  width: 50%;
+  margin-left: 25%;
+  padding:1%;
+  text-align: center;
+  border-style: solid;
+}
+.lbl
+{
+  font-size: 30px;
+  margin-right: 1%;
+}
+.inp
+{
+  width: 40%;
+}
+.adminmain
+{
+  background-color: black;
+  color: whitesmoke;
+}
+.navbar .nav-link.active {
+  font-weight: bold;
+  background-color: black;
+  transform: scale(1.1);
+  border-radius: 10px;
+
+}
+
+
+.Logo{
+  /* border-style: solid; */
+  margin-left: -8%;
+  top: 0%;
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  /* z-index: 1; */
+  cursor: pointer;
+}
+.search
+{
+  margin-left: 45%;
+}
+.dropdown
+{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.txtarea
+{
+  width: 75%;
+  height: 100px;
+}
+
+@media (max-width: 468px) {
+
+.videocarousel
+{
+  display: none;
+
+}
+.imgcarousel
+{
+  display: block;
+}
+.carousel-item {
+  height: 420px;
+}
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+}

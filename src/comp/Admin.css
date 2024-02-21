@@ -1,0 +1,82 @@
+/* Admin CSS */
+.Acontainer
+{
+    border-style: solid;
+    background-image: url('/src/img/8k.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10% 5%;
+}
+.hbg
+{
+    width: 100%;
+    height: 100%;}
+.Acard
+{ 
+    margin-left: 3%;
+    background-image: url("/src/img/naruto.png");
+    background-size: 500px 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    padding-top: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10spx;
+}
+.Hover :hover{
+    transition: 0.4s ease-out;
+    transform: translateY(-20px);
+
+  }
+
+.AdminTitle
+{
+    color: aliceblue;
+    font-size: 24px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 40px;
+
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
+
+
+
+/* CRUD CSS */
+.Ainput
+{
+    width: 70%;
+    height: 35px;
+    
+}
+::placeholder
+{
+   
+   padding-left: 10px;
+
+}
+.img img
+{
+    width:100%;
+    height: 100%;
+
+
+}
+
+.tbinp
+{ width: 60%;
+    height: 35px;
+}
+.BTN{
+    
+    padding: 5px 7px 5px 7px;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+}
